@@ -613,6 +613,18 @@
     [
       "eaacffe0-ee57-428e-a37e-5655e0922ccc",
       "Root"
+    ],
+    [
+      "08c8ede8-1095-4e69-9f52-7f615080da19",
+      "Communication"
+    ],
+    [
+      "2aa4b752-d5dd-41d5-96a2-06ece1279133",
+      "Control"
+    ],
+    [
+      "86dfffbf-ac08-41cb-ab8f-382cca5b005c",
+      "Storage"
     ]
   ],
   "text_variables": {}
