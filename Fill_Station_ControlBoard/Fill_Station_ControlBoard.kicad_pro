@@ -625,6 +625,10 @@
     [
       "86dfffbf-ac08-41cb-ab8f-382cca5b005c",
       "Storage"
+    ],
+    [
+      "8a0f3f8a-bb10-44ee-9a52-010a31de8ac3",
+      "Heaters"
     ]
   ],
   "text_variables": {}

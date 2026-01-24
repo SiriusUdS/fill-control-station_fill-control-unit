@@ -7179,16 +7179,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 58.42) (xy 163.83 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f99d422-deec-43de-a4c7-353d0583be4c")
-	)
-	(wire
-		(pts
 			(xy 260.35 81.28) (xy 267.97 81.28)
 		)
 		(stroke
@@ -7446,6 +7436,16 @@
 			(type default)
 		)
 		(uuid "c4e02029-5b24-44b0-b3ba-723ce1a94f05")
+	)
+	(wire
+		(pts
+			(xy 132.08 58.42) (xy 163.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6481c7c-574c-4138-8311-691ea84a69a7")
 	)
 	(wire
 		(pts
@@ -8888,7 +8888,7 @@
 				)
 			)
 		)
-		(property "Value" "6pF"
+		(property "Value" "*"
 			(at 302.26 165.1 90)
 			(effects
 				(font
@@ -11989,7 +11989,7 @@
 				)
 			)
 		)
-		(property "Value" "6pF"
+		(property "Value" "*"
 			(at 302.26 176.53 90)
 			(effects
 				(font
@@ -13121,6 +13121,108 @@
 			(project "Fill_Station_ControlBoard"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 148.59)
+		(size 55.88 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a0f3f8a-bb10-44ee-9a52-010a31de8ac3")
+		(property "Sheetname" "Heaters"
+			(at 27.94 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Heaters.kicad_sch"
+			(at 27.94 179.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO6" input
+			(at 83.82 172.72 0)
+			(uuid "e5cc7c93-4f40-455b-9470-3a0624a90281")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO2" input
+			(at 83.82 157.48 0)
+			(uuid "71acf9c9-d934-4cdd-a0c5-0279f8c7ffc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1" input
+			(at 83.82 153.67 0)
+			(uuid "35a96839-b9e0-4ee4-b309-7fa7913bd326")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO4" input
+			(at 83.82 165.1 0)
+			(uuid "39dbdede-53ee-4f39-af83-76a1f5eaa9d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO5" input
+			(at 83.82 168.91 0)
+			(uuid "ca4ad6c1-acbf-48d5-9f4f-dfa53852bb4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO3" input
+			(at 83.82 161.29 0)
+			(uuid "7379c2ee-fafc-48e0-93da-93f8bba6bc79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Fill_Station_ControlBoard"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc"
+					(page "5")
 				)
 			)
 		)
