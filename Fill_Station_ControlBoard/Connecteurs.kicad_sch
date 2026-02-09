@@ -5189,7 +5189,7 @@
 		)
 		(uuid "7b366993-31c9-4d9b-bf90-e6048e6be6b8")
 	)
-	(text "Ces trois condo doivent être près des cotés inputs des I/O\n"
+	(text "Ces trois condo doivent être près des cotés inputs des I/O \nValeurs trouvé selon une fréquence de 1MHz\n"
 		(exclude_from_sim no)
 		(at 61.722 95.504 0)
 		(effects
@@ -5505,6 +5505,12 @@
 		(uuid "d721679f-fd32-4910-8128-cd2e350c2d8c")
 	)
 	(junction
+		(at 104.14 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da01f1ef-24f1-48f0-bbce-30a681f1bdc4")
+	)
+	(junction
 		(at 358.14 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5770,6 +5776,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 40.64) (xy 114.3 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c88ddda-9dd0-42ea-a4f1-57015186cda3")
+	)
+	(wire
+		(pts
 			(xy 62.23 62.23) (xy 62.23 76.2)
 		)
 		(stroke
@@ -5860,6 +5876,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 50.8) (xy 114.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270192b8-6786-4392-bf15-3e607cc7e08a")
+	)
+	(wire
+		(pts
 			(xy 72.39 207.01) (xy 106.68 207.01)
 		)
 		(stroke
@@ -5897,6 +5923,16 @@
 			(type default)
 		)
 		(uuid "2a7a7b75-57f6-4581-9830-dffab922e00a")
+	)
+	(wire
+		(pts
+			(xy 104.14 40.64) (xy 114.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c12a09f-110f-4518-b622-072127782dbd")
 	)
 	(wire
 		(pts
@@ -7097,6 +7133,16 @@
 			(type default)
 		)
 		(uuid "b70e488c-2a64-4076-8f35-a321eeb445a9")
+	)
+	(wire
+		(pts
+			(xy 114.3 49.53) (xy 114.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f4dde5-fbea-4dab-9c5d-7f173711d4f8")
 	)
 	(wire
 		(pts
@@ -8364,7 +8410,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "0"
 			(at 63.5 57.15 0)
 			(effects
 				(font
@@ -9464,7 +9510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "22u"
 			(at 65.278 81.28 0)
 			(effects
 				(font
@@ -10958,7 +11004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "22u"
 			(at 54.61 81.2799 0)
 			(effects
 				(font
@@ -12818,7 +12864,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1uF"
 			(at 107.95 46.9899 0)
 			(effects
 				(font
@@ -13364,7 +13410,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "22u"
 			(at 74.168 81.28 0)
 			(effects
 				(font
@@ -13616,6 +13662,76 @@
 			(project "Fill_Station_ControlBoard"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/08c8ede8-1095-4e69-9f52-7f615080da19"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eda15f3c-067d-4ab5-8f86-7f90c70501c5")
+		(property "Reference" "C36"
+			(at 118.11 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 118.11 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.2652 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca724557-dea6-4c48-89cb-2df8b48f7728")
+		)
+		(pin "2"
+			(uuid "80db2861-3270-4346-84ea-4294704e508a")
+		)
+		(instances
+			(project "Fill_Station_ControlBoard"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/08c8ede8-1095-4e69-9f52-7f615080da19"
+					(reference "C36")
 					(unit 1)
 				)
 			)
