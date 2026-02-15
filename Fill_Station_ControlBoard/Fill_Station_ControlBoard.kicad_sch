@@ -5694,6 +5694,16 @@
 		)
 		(uuid "7628ea9d-8f22-446a-8a96-e5e377864c76")
 	)
+	(text "Laisser flotante?\n"
+		(exclude_from_sim no)
+		(at 154.94 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e02bef20-ae6f-4b03-8f5c-a5dd676acdfc")
+	)
 	(text "Découplage"
 		(exclude_from_sim no)
 		(at 293.116 29.718 0)
@@ -6879,16 +6889,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 113.03) (xy 80.01 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76cc4145-2b73-4ba0-b645-f5b0202a06f3")
-	)
-	(wire
-		(pts
 			(xy 245.11 31.75) (xy 245.11 39.37)
 		)
 		(stroke
@@ -7819,16 +7819,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 86.36) (xy 267.97 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e26ec7f6-f70b-4c2e-82ed-993ed4791263")
-	)
-	(wire
-		(pts
 			(xy 137.16 238.76) (xy 137.16 228.6)
 		)
 		(stroke
@@ -8217,16 +8207,6 @@
 		)
 		(uuid "3062b5e5-4b6f-43f7-bc67-a810c6131df8")
 	)
-	(label "Eth.CLKIN"
-		(at 140.97 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "324ac821-92ce-4fa6-9f14-0573ffbc3bc9")
-	)
 	(label "SD.DET"
 		(at 96.52 208.28 0)
 		(effects
@@ -8496,16 +8476,6 @@
 			(justify left bottom)
 		)
 		(uuid "a90a6af6-651e-47f4-b94d-26b2daa13b0c")
-	)
-	(label "JTMS"
-		(at 267.97 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac3694f1-2a2a-4a19-80da-1443d74d68dc")
 	)
 	(label "Eth.REFCLKO"
 		(at 350.52 226.06 180)
@@ -9071,7 +9041,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "Crystal 32.768 kHz"
 			(at 293.37 177.7999 90)
 			(effects
 				(font
@@ -9352,7 +9322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 128.524 57.404 90)
 			(effects
 				(font
@@ -9696,7 +9666,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 147.574 90.424 90)
 			(effects
 				(font
@@ -10631,7 +10601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 136.906 34.544 90)
 			(effects
 				(font
@@ -11842,7 +11812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 274.066 178.816 90)
 			(effects
 				(font
@@ -12385,7 +12355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 147.066 67.564 90)
 			(effects
 				(font
@@ -12446,7 +12416,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "Crystal 25MHz"
 			(at 132.08 93.9799 90)
 			(effects
 				(font
@@ -12657,7 +12627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.924 92.964 90)
 			(effects
 				(font
@@ -13194,16 +13164,6 @@
 		(pin "NJRST" input
 			(at 72.39 110.49 0)
 			(uuid "959c279d-244b-47df-82c9-7b05678a2e4e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "JTMS" input
-			(at 72.39 113.03 0)
-			(uuid "1cf589e7-624f-4cc4-8120-877ec134947a")
 			(effects
 				(font
 					(size 1.27 1.27)
