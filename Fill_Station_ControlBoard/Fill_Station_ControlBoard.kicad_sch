@@ -6004,7 +6004,7 @@
 	)
 	(text "pins ethernet doivent être high impedence lors de la configuaration ou reset du phy"
 		(exclude_from_sim no)
-		(at 373.888 183.642 0)
+		(at 373.634 169.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6434,6 +6434,16 @@
 			(type default)
 		)
 		(uuid "044f62d0-9f31-4a94-afd4-61dd0e824acf")
+	)
+	(wire
+		(pts
+			(xy 350.52 175.26) (xy 355.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0488aeaa-5483-4609-8a88-45b01a6d5c39")
 	)
 	(wire
 		(pts
@@ -7117,6 +7127,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 182.88) (xy 355.6 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67450665-f446-4a4c-ac00-be72e1caae8e")
+	)
+	(wire
+		(pts
 			(xy 49.53 40.64) (xy 49.53 43.18)
 		)
 		(stroke
@@ -7124,6 +7144,16 @@
 			(type default)
 		)
 		(uuid "675aefd4-379e-4d28-ab06-ecee7b2498ad")
+	)
+	(wire
+		(pts
+			(xy 350.52 180.34) (xy 355.6 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680cebc1-909f-458e-8ff2-86ac732c3d38")
 	)
 	(wire
 		(pts
@@ -8437,6 +8467,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 177.8) (xy 355.6 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7d6168-fa38-4db2-85a4-d3981bcef7cb")
+	)
+	(wire
+		(pts
 			(xy 157.48 190.5) (xy 163.83 190.5)
 		)
 		(stroke
@@ -8795,6 +8835,26 @@
 		)
 		(uuid "345ce512-4405-4651-b10a-1f1856182d59")
 	)
+	(label "CAN.STBY"
+		(at 350.52 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ab914fa-ac2a-48b0-a746-572ef61eb6cd")
+	)
+	(label "NJRST"
+		(at 80.01 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fa9b75e-cc83-4a81-ae76-99f9c66ca650")
+	)
 	(label "Eth.RST"
 		(at 350.52 191.77 180)
 		(effects
@@ -8905,6 +8965,16 @@
 		)
 		(uuid "6391014f-20f8-4885-8cc8-e19264b0ddf2")
 	)
+	(label "CAN.TXD"
+		(at 350.52 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6421f2c5-3e78-4df6-83fc-e00fca7b4a23")
+	)
 	(label "GPIO1"
 		(at 157.48 210.82 180)
 		(effects
@@ -8934,6 +9004,16 @@
 			(justify right bottom)
 		)
 		(uuid "7564d56b-b372-4a2c-a924-89df32b22a27")
+	)
+	(label "CAN.RXD"
+		(at 350.52 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78172865-132a-4854-9a14-dbcfb67e93ea")
 	)
 	(label "Eth.RXER"
 		(at 350.52 210.82 180)
@@ -8975,6 +9055,16 @@
 		)
 		(uuid "850f3711-6896-4d98-bedf-738f5bf0c7e4")
 	)
+	(label "JTDO"
+		(at 80.01 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "853b50c2-878d-450d-bbc0-bdf251919435")
+	)
 	(label "SD.CLK"
 		(at 96.52 215.9 0)
 		(effects
@@ -8984,6 +9074,16 @@
 			(justify left bottom)
 		)
 		(uuid "877b2ed1-ba3a-4c37-8768-b1a2ae5acf2e")
+	)
+	(label "CAN.FAULT"
+		(at 350.52 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b0febb5-baeb-4b0e-aa8d-3760c3dd5c9e")
 	)
 	(label "Eth.CRS_DV"
 		(at 267.97 71.12 0)
@@ -9024,6 +9124,16 @@
 			(justify left bottom)
 		)
 		(uuid "96af9dff-ca4d-4077-9f05-ebd1a1231f3e")
+	)
+	(label "JTDI"
+		(at 80.01 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98c5fe29-011e-4fa7-b570-27c37d36e7ee")
 	)
 	(label "Eth.MDC"
 		(at 267.97 142.24 0)
@@ -9084,6 +9194,16 @@
 			(justify left bottom)
 		)
 		(uuid "abe8376a-fb35-48b7-8baa-4cdda4f1b08f")
+	)
+	(label "JTCK"
+		(at 80.01 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c67aab5c-8f94-48a1-a7b6-05b41ddcdd0c")
 	)
 	(label "GPIO4"
 		(at 91.44 165.1 0)
@@ -14364,8 +14484,8 @@
 		)
 	)
 	(sheet
-		(at 355.6 189.23)
-		(size 41.91 41.91)
+		(at 355.6 172.72)
+		(size 41.91 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14380,7 +14500,7 @@
 		)
 		(uuid "08c8ede8-1095-4e69-9f52-7f615080da19")
 		(property "Sheetname" "Communication"
-			(at 355.6 188.5184 0)
+			(at 355.6 172.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14510,6 +14630,46 @@
 		(pin "Eth.RST" input
 			(at 355.6 191.77 180)
 			(uuid "44756584-f1cb-4125-898a-2f175c77a37c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN.FAULT" output
+			(at 355.6 175.26 180)
+			(uuid "07c17ceb-2e97-4a7a-ac18-c96656659c95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN.RXD" bidirectional
+			(at 355.6 177.8 180)
+			(uuid "58031dd7-0482-48b5-83b9-cf07ce217912")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN.TXD" bidirectional
+			(at 355.6 180.34 180)
+			(uuid "17b59713-374e-4392-828e-0e0c61fa8575")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN.STBY" input
+			(at 355.6 182.88 180)
+			(uuid "4cc09477-0819-42ee-a09e-759c67dbc076")
 			(effects
 				(font
 					(size 1.27 1.27)

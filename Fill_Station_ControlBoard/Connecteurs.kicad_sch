@@ -8131,26 +8131,6 @@
 		)
 		(uuid "fed2ad62-6027-4ac0-847e-7e40d61e5542")
 	)
-	(label "CAN.STBY"
-		(at 40.64 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4ca7b4f7-7183-4669-9647-1f34bf896629")
-	)
-	(label "CAN.RXD"
-		(at 39.37 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "54e45e1d-46f7-4bef-8115-e8a063b970ed")
-	)
 	(label "LED2"
 		(at 149.86 232.41 0)
 		(effects
@@ -8181,16 +8161,6 @@
 		)
 		(uuid "93fc19a4-745f-4c5b-a93c-92d4ed7fc20e")
 	)
-	(label "CAN.FAULT"
-		(at 41.91 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cd241297-77cf-4a7e-b11a-d78e6f638786")
-	)
 	(label "TX_P"
 		(at 170.18 204.47 0)
 		(effects
@@ -8220,16 +8190,6 @@
 			(justify left bottom)
 		)
 		(uuid "f9892fed-951e-4727-8ed6-fcd4a574a507")
-	)
-	(label "CAN.TXD"
-		(at 39.37 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "faca4237-015f-400e-af96-c046bcd6c630")
 	)
 	(global_label "USBC.DP"
 		(shape output)
@@ -8341,6 +8301,17 @@
 		)
 		(uuid "453ab99f-4c75-4040-9ab2-8ac779931cf9")
 	)
+	(hierarchical_label "CAN.STBY"
+		(shape input)
+		(at 40.64 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dbd1610-1ba7-4386-9f52-a45dc4247a89")
+	)
 	(hierarchical_label "Eth.MDC"
 		(shape input)
 		(at 62.23 227.33 180)
@@ -8384,6 +8355,39 @@
 			(justify right)
 		)
 		(uuid "b8b9453b-ab8d-47af-b452-719fd7dc243b")
+	)
+	(hierarchical_label "CAN.FAULT"
+		(shape output)
+		(at 41.91 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0ae747b-61f6-4989-add9-a78f373c118d")
+	)
+	(hierarchical_label "CAN.RXD"
+		(shape bidirectional)
+		(at 39.37 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d832651d-4510-441e-841a-326ff26e19b0")
+	)
+	(hierarchical_label "CAN.TXD"
+		(shape bidirectional)
+		(at 39.37 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc764849-1814-4315-85fa-4eb1f26188d1")
 	)
 	(hierarchical_label "Eth.REFCLKO"
 		(shape output)
@@ -9113,7 +9117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_Vertical_P2.77x2.84mm_MountingHoles"
 			(at 168.91 67.31 0)
 			(effects
 				(font
@@ -14521,7 +14525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A_CircularHoles"
 			(at 298.45 76.2 0)
 			(effects
 				(font
