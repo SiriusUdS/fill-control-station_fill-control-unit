@@ -6923,10 +6923,6 @@
 		(uuid "190f4b23-9e44-4d78-a4da-6e434a4ef43c")
 	)
 	(no_connect
-		(at 142.24 207.01)
-		(uuid "1daa3dd5-37ee-46bd-bbf9-039f15a69a47")
-	)
-	(no_connect
 		(at 142.24 123.19)
 		(uuid "2986b485-7502-4948-9f8b-71f6991f7708")
 	)
@@ -6969,10 +6965,6 @@
 	(no_connect
 		(at 238.76 194.31)
 		(uuid "4a5e9948-36c1-4647-816a-d3638c270f83")
-	)
-	(no_connect
-		(at 142.24 209.55)
-		(uuid "4cbe95ce-76d7-4393-8afc-7a14342f3418")
 	)
 	(no_connect
 		(at 142.24 199.39)
@@ -7085,10 +7077,6 @@
 	(no_connect
 		(at 238.76 217.17)
 		(uuid "9ee7a9a3-8c68-4b8d-80ad-f26ee827fb97")
-	)
-	(no_connect
-		(at 142.24 204.47)
-		(uuid "a08055fc-10f6-494f-afb4-4199464c1199")
 	)
 	(no_connect
 		(at 238.76 173.99)
@@ -9160,6 +9148,16 @@
 		)
 		(uuid "2d8ffdcb-768c-4185-948b-e5b6dbeaf0c9")
 	)
+	(label "JTDO"
+		(at 238.76 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "461f52ee-b7d1-479d-948d-1a98a44059cf")
+	)
 	(label "VDD5_USB"
 		(at 201.93 19.05 0)
 		(effects
@@ -9220,6 +9218,27 @@
 		)
 		(uuid "d79b5d98-e868-4971-8ec9-28fb366a3b6d")
 	)
+	(label "NJRST"
+		(at 238.76 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e74390fe-ba68-465b-b0e7-eeb3e4f20491")
+	)
+	(hierarchical_label "Servo.Signal2"
+		(shape input)
+		(at 142.24 207.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "003ef1bf-b554-4297-9122-e7126322c9eb")
+	)
 	(hierarchical_label "SD.DAT1"
 		(shape input)
 		(at 238.76 163.83 0)
@@ -9253,6 +9272,17 @@
 		)
 		(uuid "0bd367f0-764b-4bd4-81ad-524730f6725d")
 	)
+	(hierarchical_label "Servo.Signal1"
+		(shape input)
+		(at 142.24 204.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c4a4a61-3b56-4ae4-94ad-bfd3662325a4")
+	)
 	(hierarchical_label "Eth.MDIO"
 		(shape bidirectional)
 		(at 238.76 59.69 0)
@@ -9274,17 +9304,6 @@
 			(justify right)
 		)
 		(uuid "3425c82e-6ef0-41a6-9c8c-23fd5c7a0580")
-	)
-	(hierarchical_label "JTDO"
-		(shape input)
-		(at 238.76 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "484df3d4-814c-468a-83dd-bd13f1cc9875")
 	)
 	(hierarchical_label "GPIO4"
 		(shape input)
@@ -9308,6 +9327,17 @@
 		)
 		(uuid "4adbc5b8-8c73-4057-bf49-e2678a064049")
 	)
+	(hierarchical_label "Servo.Signal3"
+		(shape input)
+		(at 142.24 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "500e893f-1c6c-4fe2-93f4-e055800572ee")
+	)
 	(hierarchical_label "SD.DAT3"
 		(shape input)
 		(at 238.76 168.91 0)
@@ -9329,17 +9359,6 @@
 			(justify left)
 		)
 		(uuid "5fc27c24-bed1-46e6-af5f-88d7d220ad1b")
-	)
-	(hierarchical_label "NJTRST"
-		(shape input)
-		(at 238.76 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6ae53404-a6f8-4b90-945e-673179db5545")
 	)
 	(hierarchical_label "SD.CMD"
 		(shape input)
