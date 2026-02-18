@@ -560,84 +560,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Link",
-          "name": "Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer Part Number",
-          "name": "Manufacturer Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mfg #1",
-          "name": "Mfg #1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "No Digikey",
-          "name": "No Digikey",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part Number",
-          "name": "Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Projet",
-          "name": "Projet",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Projet Prealable",
-          "name": "Projet Prealable",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Remarque #1",
-          "name": "Remarque #1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Cost",
-          "name": "Cost",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -688,7 +616,7 @@
     ],
     [
       "08c8ede8-1095-4e69-9f52-7f615080da19",
-      "Communication"
+      "Ethernet"
     ],
     [
       "2aa4b752-d5dd-41d5-96a2-06ece1279133",
@@ -699,12 +627,20 @@
       "Storage"
     ],
     [
-      "8a0f3f8a-bb10-44ee-9a52-010a31de8ac3",
-      "Heaters"
+      "e0f29092-a5b7-4c06-8bb6-3f29401186b8",
+      "MCU"
     ],
     [
-      "78570940-d31b-4107-96ab-416087deab86",
-      "Connecteur"
+      "5d95e092-c448-4af3-bba5-d28c074fd0e0",
+      "Alimentation"
+    ],
+    [
+      "89a4eee6-f04c-46ec-a929-95355d7dfe4e",
+      "CAN FD"
+    ],
+    [
+      "bd5f43b0-eb43-448d-8e3c-0f3b56e55349",
+      "USB"
     ]
   ],
   "text_variables": {}

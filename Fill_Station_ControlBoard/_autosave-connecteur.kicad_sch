@@ -1,0 +1,31 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b824ebe9-87a1-40c1-8ea7-2e2247cf714a")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 69.85 44.45)
+		(end 214.63 130.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3662dd2b-2f4e-47e1-8308-ec5b4ffc7a00)
+	)
+	(text "JTAG\n"
+		(exclude_from_sim no)
+		(at 74.93 50.546 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+			(justify left)
+		)
+		(uuid "bcd87c03-eb78-4bea-8fc6-f4490f80fb62")
+	)
+)
