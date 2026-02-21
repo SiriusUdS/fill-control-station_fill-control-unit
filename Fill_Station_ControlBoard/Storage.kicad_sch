@@ -1009,6 +1009,12 @@
 		(uuid "c4e27c33-4e69-4c35-9ea3-c4f7dd010639")
 	)
 	(junction
+		(at 158.75 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6f6c5a6-3eff-404e-95f5-fd2db8ffa7d7")
+	)
+	(junction
 		(at 173.99 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1273,6 +1279,16 @@
 			(type default)
 		)
 		(uuid "a8c5bd67-6cb1-4b46-92a1-c1758735dc44")
+	)
+	(wire
+		(pts
+			(xy 158.75 59.69) (xy 158.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac304646-77df-46b3-848e-f28604d02858")
 	)
 	(wire
 		(pts
@@ -2064,7 +2080,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5353e765-cd02-479f-ae9a-25e53bf11e7f")
 		(property "Reference" "#PWR052"
 			(at 124.46 63.5 0)
@@ -2076,7 +2091,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 127 58.4199 0)
+			(at 122.682 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,6 +2706,72 @@
 			(project "Fill_Station_ControlBoard"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/86dfffbf-ac08-41cb-ab8f-382cca5b005c"
 					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 158.75 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3bd1887-e23a-4850-854c-7c5e563f2733")
+		(property "Reference" "#PWR063"
+			(at 158.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 156.972 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 158.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ae62183-a10f-4e14-b76d-f022c6886740")
+		)
+		(instances
+			(project "Fill_Station_ControlBoard"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/86dfffbf-ac08-41cb-ab8f-382cca5b005c"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)

@@ -3464,7 +3464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT323-3L_STM"
+		(property "Footprint" ""
 			(at 163.83 91.44 0)
 			(effects
 				(font
