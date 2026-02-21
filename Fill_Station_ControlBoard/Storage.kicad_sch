@@ -2508,7 +2508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Molex_47219-2001"
 			(at 236.22 85.09 0)
 			(effects
 				(font
