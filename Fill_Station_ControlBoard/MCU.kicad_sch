@@ -6669,6 +6669,12 @@
 		(uuid "4c5fdb5f-1249-4e53-bd94-51ca67ee03d2")
 	)
 	(junction
+		(at 279.4 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "534938ad-f55e-45fd-94e1-96c200f2f76f")
+	)
+	(junction
 		(at 306.07 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7836,7 +7842,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 85.09) (xy 284.48 85.09)
+			(xy 275.59 85.09) (xy 279.4 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8253,6 +8259,16 @@
 			(type default)
 		)
 		(uuid "7a4c00ca-6a9b-407c-8488-d1c771dbe88f")
+	)
+	(wire
+		(pts
+			(xy 279.4 85.09) (xy 284.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa70c16-b550-4728-bdb9-f57cf4bb2d7b")
 	)
 	(wire
 		(pts
@@ -13879,6 +13895,72 @@
 			(project "Fill_Station_ControlBoard"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/e0f29092-a5b7-4c06-8bb6-3f29401186b8"
 					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 279.4 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8736c2c7-4940-445c-a2db-a4981879894f")
+		(property "Reference" "#PWR0132"
+			(at 279.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "043cba59-dbed-4b28-a282-e83525ff7210")
+		)
+		(instances
+			(project "Fill_Station_ControlBoard"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/e0f29092-a5b7-4c06-8bb6-3f29401186b8"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
