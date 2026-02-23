@@ -97,6 +97,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 162.56) (xy 304.8 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33815c99-c9ae-408a-af48-56c816de703d")
+	)
+	(wire
+		(pts
 			(xy 254 58.42) (xy 304.8 58.42)
 		)
 		(stroke
@@ -439,16 +449,6 @@
 				(justify left)
 			)
 		)
-		(pin "Eth.RXER" output
-			(at 304.8 144.78 180)
-			(uuid "d822e88a-e220-43f6-a35c-abc9dc0f796e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Eth.MDIO" bidirectional
 			(at 304.8 148.59 180)
 			(uuid "c17cdfa2-7491-42ac-b0a5-ced43de6f2c6")
@@ -509,6 +509,16 @@
 				(justify left)
 			)
 		)
+		(pin "Clock25Mhz" input
+			(at 304.8 162.56 180)
+			(uuid "b33ca4ee-e2bb-41c6-a97f-d4a1a82e8ffe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Fill_Station_ControlBoard"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc"
@@ -518,8 +528,8 @@
 		)
 	)
 	(sheet
-		(at 304.8 50.8)
-		(size 38.1 38.1)
+		(at 304.8 25.4)
+		(size 38.1 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -534,7 +544,7 @@
 		)
 		(uuid "2aa4b752-d5dd-41d5-96a2-06ece1279133")
 		(property "Sheetname" "Control"
-			(at 304.8 50.0884 0)
+			(at 304.8 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -634,6 +644,96 @@
 		(pin "GPIO4" input
 			(at 304.8 80.01 180)
 			(uuid "24b83984-4e60-4825-ba5a-ef332b0914d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E-match1_Cont" input
+			(at 304.8 33.02 180)
+			(uuid "8df59ad3-361f-4336-a541-719c9ac94614")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E-match1_Det" output
+			(at 304.8 30.48 180)
+			(uuid "1e3930c6-3220-45fe-bea4-ba72fddd3f84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Heater2" input
+			(at 304.8 50.8 180)
+			(uuid "d3313ef0-a051-4763-be1a-fddf113f73f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Heater1" input
+			(at 304.8 48.26 180)
+			(uuid "4b744492-8cd0-4c8c-9968-b2f528402a67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Heater3" input
+			(at 304.8 53.34 180)
+			(uuid "391244d5-f962-483b-b260-cdd1b4576d65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E-match1" input
+			(at 304.8 27.94 180)
+			(uuid "174e7ac5-2160-48d9-989d-2d9b37e8f8ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E-match2_Cont" input
+			(at 304.8 43.18 180)
+			(uuid "e70bd7b9-9b46-4400-b101-489f760bcaae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E-match2_Det" output
+			(at 304.8 40.64 180)
+			(uuid "58a611c0-096c-4093-863c-98db3fb346b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E-match2" input
+			(at 304.8 38.1 180)
+			(uuid "4e6b36a5-6b3e-4359-abd8-e76592812a74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -968,8 +1068,8 @@
 		)
 	)
 	(sheet
-		(at 177.8 46.99)
-		(size 76.2 119.38)
+		(at 177.8 22.86)
+		(size 76.2 143.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -984,7 +1084,7 @@
 		)
 		(uuid "e0f29092-a5b7-4c06-8bb6-3f29401186b8")
 		(property "Sheetname" "MCU"
-			(at 177.8 46.2784 0)
+			(at 177.8 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,6 +1439,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Clock25Mhz" output
+			(at 254 162.56 0)
+			(uuid "33e7d38c-bc88-4622-80a5-ac12090f02af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
