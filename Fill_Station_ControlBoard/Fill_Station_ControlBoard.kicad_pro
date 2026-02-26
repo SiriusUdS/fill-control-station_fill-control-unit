@@ -48,10 +48,21 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.4
+          "min_clearance": 0.6
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.0,
+          "width": 0.1565
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +191,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.1565,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +222,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -478,7 +498,14 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "3V3": "rgb(221, 133, 0)",
+      "3V3A": "rgb(204, 102, 0)",
+      "5V": "rgb(255, 255, 0)",
+      "5V_BAT": "rgb(194, 194, 0)",
+      "5V_USB": "rgb(132, 132, 0)",
+      "GND": "rgb(0, 0, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -631,12 +658,12 @@
       "MCU"
     ],
     [
-      "5d95e092-c448-4af3-bba5-d28c074fd0e0",
-      "Alimentation"
-    ],
-    [
       "89a4eee6-f04c-46ec-a929-95355d7dfe4e",
       "CAN FD"
+    ],
+    [
+      "5d95e092-c448-4af3-bba5-d28c074fd0e0",
+      "Alimentation"
     ],
     [
       "bd5f43b0-eb43-448d-8e3c-0f3b56e55349",

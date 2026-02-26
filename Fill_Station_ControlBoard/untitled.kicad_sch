@@ -5,6 +5,145 @@
 	(uuid "74ed158e-016a-490c-9371-f58da87aa47c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
@@ -1163,7 +1302,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SL_Screw_Terminal:Screw_Terminal_3_P5.00mm"
+		(symbol "PCM_SL_Screw_Terminal:Screw_Terminal_3_P3.50mm"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1175,7 +1314,7 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_3_P5.00mm"
+			(property "Value" "Screw_Terminal_3_P3.50mm"
 				(at 1.27 -5.588 0)
 				(effects
 					(font
@@ -1183,7 +1322,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
+			(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -1210,7 +1349,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_3_P5.00mm_0_1"
+			(symbol "Screw_Terminal_3_P3.50mm_0_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 2.54 -3.81)
@@ -1328,7 +1467,7 @@
 					)
 				)
 			)
-			(symbol "Screw_Terminal_3_P5.00mm_1_1"
+			(symbol "Screw_Terminal_3_P3.50mm_1_1"
 				(pin passive line
 					(at -3.81 2.54 0)
 					(length 2.54)
@@ -1386,7 +1525,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SL_Screw_Terminal:Screw_Terminal_6_P5.00mm"
+		(symbol "PCM_SL_Screw_Terminal:Screw_Terminal_6_P3.50mm"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1398,7 +1537,7 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_6_P5.00mm"
+			(property "Value" "Screw_Terminal_6_P3.50mm"
 				(at 1.27 -8.89 0)
 				(effects
 					(font
@@ -1406,8 +1545,8 @@
 					)
 				)
 			)
-			(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-6-5.0-H_1x06_P5.00mm_Horizontal"
-				(at 1.27 -11.43 0)
+			(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-6-3.5-H_1x06_P3.50mm_Horizontal"
+				(at -1.27 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1433,7 +1572,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_6_P5.00mm_0_1"
+			(symbol "Screw_Terminal_6_P3.50mm_0_1"
 				(rectangle
 					(start -1.27 7.62)
 					(end 2.54 -7.62)
@@ -1656,7 +1795,7 @@
 					)
 				)
 			)
-			(symbol "Screw_Terminal_6_P5.00mm_1_1"
+			(symbol "Screw_Terminal_6_P3.50mm_1_1"
 				(pin passive line
 					(at -3.81 6.35 0)
 					(length 2.54)
@@ -2512,7 +2651,7 @@
 		(uuid "d46180cd-823c-4f61-a98f-b33cac45b4c9")
 	)
 	(junction
-		(at 135.89 146.05)
+		(at 135.89 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c684a0a-d545-4131-bc62-21e41456524f")
@@ -2536,6 +2675,12 @@
 		(uuid "3742fc10-980a-450d-ae10-09e32c93dd15")
 	)
 	(junction
+		(at 121.92 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4beec422-c473-4e6c-8aa1-ec305361037d")
+	)
+	(junction
 		(at 135.89 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2548,13 +2693,25 @@
 		(uuid "719c7f51-98cd-4b7e-af3e-40cab0899aa5")
 	)
 	(junction
+		(at 53.34 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7355983f-7a9e-491a-b3d1-ef181f349d1c")
+	)
+	(junction
+		(at 48.26 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94a0b9bb-52ec-4abe-8185-61678294ab5f")
+	)
+	(junction
 		(at 99.06 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "963c51f6-93f6-4f43-b560-23a43e2e9362")
 	)
 	(junction
-		(at 62.23 146.05)
+		(at 62.23 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bc2a555-3b15-48e9-b52d-8974ff8d6341")
@@ -2570,6 +2727,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cafc2875-4391-41cf-ac22-be1ee6abfee5")
+	)
+	(junction
+		(at 128.27 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb9fae83-b437-43d4-bad8-d7948193c7c9")
+	)
+	(wire
+		(pts
+			(xy 48.26 143.51) (xy 48.26 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0395d703-9891-4a60-b75a-eedfb717ea44")
 	)
 	(wire
 		(pts
@@ -2593,13 +2766,43 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 148.59) (xy 67.31 148.59)
+			(xy 53.34 143.51) (xy 53.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1abd31-c3f3-4020-ba26-fcba4d70fd25")
+	)
+	(wire
+		(pts
+			(xy 62.23 135.89) (xy 67.31 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1570fd90-4536-4a16-a5d8-b10c5d2c1b4e")
+	)
+	(wire
+		(pts
+			(xy 118.11 139.7) (xy 118.11 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16436bad-1d89-4ea1-b149-2a4f72ade870")
+	)
+	(wire
+		(pts
+			(xy 118.11 138.43) (xy 128.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d45451-3991-4df2-8576-37a0d8232f20")
 	)
 	(wire
 		(pts
@@ -2613,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 146.05) (xy 54.61 147.32)
+			(xy 53.34 133.35) (xy 53.34 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2633,7 +2836,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 143.51) (xy 135.89 146.05)
+			(xy 135.89 135.89) (xy 135.89 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2653,7 +2856,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 143.51) (xy 62.23 146.05)
+			(xy 128.27 148.59) (xy 128.27 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee32f9f-c8a4-412d-b14d-7e07a0968242")
+	)
+	(wire
+		(pts
+			(xy 62.23 130.81) (xy 62.23 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2663,7 +2876,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 151.13) (xy 67.31 151.13)
+			(xy 62.23 138.43) (xy 67.31 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2813,7 +3026,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 146.05) (xy 128.27 147.32)
+			(xy 128.27 138.43) (xy 128.27 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2853,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 151.13) (xy 135.89 161.29)
+			(xy 135.89 143.51) (xy 135.89 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2873,6 +3086,26 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 143.51) (xy 48.26 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c946e41-4654-47be-b105-f9fc8377fb3d")
+	)
+	(wire
+		(pts
+			(xy 135.89 154.94) (xy 135.89 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e8ee3e-8d3a-432c-b0dc-a1b15126e087")
+	)
+	(wire
+		(pts
 			(xy 114.3 113.03) (xy 114.3 114.8186)
 		)
 		(stroke
@@ -2880,6 +3113,16 @@
 			(type default)
 		)
 		(uuid "7443516e-87f9-4c55-b35b-e4105760e2ac")
+	)
+	(wire
+		(pts
+			(xy 48.26 143.51) (xy 53.34 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c4c751-4679-4677-862c-4cc324da8250")
 	)
 	(wire
 		(pts
@@ -2923,7 +3166,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 148.59) (xy 140.97 148.59)
+			(xy 135.89 140.97) (xy 140.97 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2943,6 +3186,26 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 133.35) (xy 62.23 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a723e51d-9880-4580-9183-202837baf637")
+	)
+	(wire
+		(pts
+			(xy 144.78 46.99) (xy 146.05 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82b8ff5-d29d-495b-bad9-ff55763e8b61")
+	)
+	(wire
+		(pts
 			(xy 81.28 43.18) (xy 87.63 43.18)
 		)
 		(stroke
@@ -2950,6 +3213,16 @@
 			(type default)
 		)
 		(uuid "aac14aee-c9b1-4251-9760-dfb87434ea0d")
+	)
+	(wire
+		(pts
+			(xy 39.37 142.24) (xy 39.37 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab02a238-fee6-41b3-9e69-ebe08a4152d7")
 	)
 	(wire
 		(pts
@@ -2963,6 +3236,26 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 147.32) (xy 118.11 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad47f003-62d7-4e11-b509-5329355e1574")
+	)
+	(wire
+		(pts
+			(xy 121.92 148.59) (xy 128.27 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade1d0a5-6481-4a50-9b06-2926ff9efb89")
+	)
+	(wire
+		(pts
 			(xy 133.35 74.93) (xy 146.05 74.93)
 		)
 		(stroke
@@ -2973,7 +3266,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 146.05) (xy 135.89 148.59)
+			(xy 135.89 138.43) (xy 135.89 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2983,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 151.13) (xy 62.23 161.29)
+			(xy 62.23 138.43) (xy 62.23 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3013,6 +3306,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 134.62) (xy 39.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b679fbe8-2238-4f9b-b92e-cfc8251e9424")
+	)
+	(wire
+		(pts
 			(xy 125.73 171.45) (xy 125.73 168.91)
 		)
 		(stroke
@@ -3020,16 +3323,6 @@
 			(type default)
 		)
 		(uuid "b766c830-e642-4de6-b024-adfec098d735")
-	)
-	(wire
-		(pts
-			(xy 54.61 146.05) (xy 62.23 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b904212c-f9b2-488b-ae67-4578f2ba526d")
 	)
 	(wire
 		(pts
@@ -3053,7 +3346,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 146.05) (xy 135.89 146.05)
+			(xy 128.27 138.43) (xy 135.89 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3063,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 146.05) (xy 62.23 148.59)
+			(xy 62.23 133.35) (xy 62.23 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3133,6 +3426,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 152.4) (xy 62.23 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a44c4d-3c9b-45e6-9c36-98da504c1954")
+	)
+	(wire
+		(pts
 			(xy 77.47 161.29) (xy 73.66 161.29)
 		)
 		(stroke
@@ -3150,6 +3453,16 @@
 			(type default)
 		)
 		(uuid "d68300c2-846b-41e1-8244-e701b09138fd")
+	)
+	(wire
+		(pts
+			(xy 121.92 148.59) (xy 121.92 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d597d6-3eef-4be4-956f-7aaf616735b4")
 	)
 	(wire
 		(pts
@@ -3183,7 +3496,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 151.13) (xy 140.97 151.13)
+			(xy 135.89 143.51) (xy 140.97 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3200,6 +3513,16 @@
 			(type default)
 		)
 		(uuid "ec731c45-25ab-4144-9e63-b38342579594")
+	)
+	(wire
+		(pts
+			(xy 118.11 148.59) (xy 121.92 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9d1e51-e71c-4e37-a196-ebf63088b5d9")
 	)
 	(wire
 		(pts
@@ -3260,6 +3583,16 @@
 			(type default)
 		)
 		(uuid "f9ae61c1-3ab7-47a8-9f02-30f37dfe607d")
+	)
+	(wire
+		(pts
+			(xy 39.37 133.35) (xy 53.34 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa534c68-bb9d-4d67-b3fa-0286ffd6f221")
 	)
 	(wire
 		(pts
@@ -3420,7 +3753,7 @@
 	)
 	(hierarchical_label "Heater1"
 		(shape input)
-		(at 146.05 46.99 180)
+		(at 144.78 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3558,7 +3891,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "*"
+		(property "Value" "680"
 			(at 116.84 119.8985 0)
 			(effects
 				(font
@@ -4021,13 +4354,168 @@
 		)
 	)
 	(symbol
-		(lib_id "MOLEX:436500200")
-		(at 106.68 74.93 0)
+		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_6_P3.50mm")
+		(at 243.84 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eac95d3-63c1-436f-9770-43ec136b6846")
+		(property "Reference" "J9"
+			(at 247.65 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_6_P3.50mm"
+			(at 247.65 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-6-3.5-H_1x06_P3.50mm_Horizontal"
+			(at 242.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "7c755abb-e2db-494c-9768-0d548124050b")
+		)
+		(pin "1"
+			(uuid "a259ffbb-966e-4926-a886-f3025ccdadc6")
+		)
+		(pin "3"
+			(uuid "303cd9e1-094e-411d-b446-0cb225f93a15")
+		)
+		(pin "2"
+			(uuid "66243b2b-4ce2-4410-8112-fd433f51db2c")
+		)
+		(pin "4"
+			(uuid "fb4cf0f9-6f4d-444c-b3b2-4489f8b6c649")
+		)
+		(pin "5"
+			(uuid "5ded00bb-ef33-43e5-92b8-1a2aca6252a2")
+		)
+		(instances
+			(project ""
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/2aa4b752-d5dd-41d5-96a2-06ece1279133"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_3_P3.50mm")
+		(at 149.86 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ec51f80-e8e1-440a-a263-a1632fd3962c")
+		(property "Reference" "J18"
+			(at 153.67 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_3_P3.50mm"
+			(at 153.67 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+			(at 151.13 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24f331fd-55f4-4ef6-bfe9-a8574e8fcae6")
+		)
+		(pin "2"
+			(uuid "32bae73c-4e0a-4323-8d3a-d0ac49c41fe0")
+		)
+		(pin "3"
+			(uuid "d39db5c5-03cc-4df8-afe9-63009f4db11f")
+		)
+		(instances
+			(project ""
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/2aa4b752-d5dd-41d5-96a2-06ece1279133"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MOLEX:436500200")
+		(at 106.68 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1f8c85d3-5227-46f1-81a3-4b168e7776b5")
 		(property "Reference" "J4"
@@ -4266,9 +4754,9 @@
 		(at 107.95 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "37fdab51-9458-4a78-998e-281c8a716549")
 		(property "Reference" "J5"
@@ -4577,7 +5065,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 154.94 0)
+		(at 48.26 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4585,7 +5073,7 @@
 		(dnp no)
 		(uuid "4bda98ca-1964-4ccf-895c-b339fb00ecd0")
 		(property "Reference" "#PWR026"
-			(at 54.61 161.29 0)
+			(at 48.26 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +5082,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 158.75 0)
+			(at 48.514 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +5090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 154.94 0)
+			(at 48.26 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +5099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 154.94 0)
+			(at 48.26 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,7 +5108,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 154.94 0)
+			(at 48.26 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +5329,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_2_P5.00mm")
-		(at 144.78 149.86 0)
+		(at 144.78 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4850,7 +5338,7 @@
 		(fields_autoplaced yes)
 		(uuid "578db4cb-2b70-4e6b-b04c-010aec7303fb")
 		(property "Reference" "J6"
-			(at 148.59 148.5899 0)
+			(at 148.59 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,7 +5347,7 @@
 			)
 		)
 		(property "Value" "Ematch2"
-			(at 148.59 151.1299 0)
+			(at 148.59 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +5356,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 146.05 156.21 0)
+			(at 146.05 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +5365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 149.86 0)
+			(at 144.78 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +5374,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 149.86 0)
+			(at 144.78 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,81 +5398,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_3_P5.00mm")
-		(at 149.86 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "582603fa-b66b-4c1c-8a5e-34c4d8fdc7ee")
-		(property "Reference" "J7"
-			(at 153.67 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_3_P5.00mm"
-			(at 153.67 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
-			(at 151.13 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "96b35bab-f866-44c3-93b7-097456ce73d0")
-		)
-		(pin "1"
-			(uuid "a24e6e20-e3ea-4264-826f-26924df99dfd")
-		)
-		(pin "3"
-			(uuid "b4407d03-8eb0-4143-8e9a-c76b44d7f894")
-		)
-		(instances
-			(project ""
-				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/2aa4b752-d5dd-41d5-96a2-06ece1279133"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_2_P5.00mm")
-		(at 71.12 149.86 0)
+		(at 71.12 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4993,7 +5408,7 @@
 		(fields_autoplaced yes)
 		(uuid "64d5eb58-45c5-414f-b9bf-319ce6150b6e")
 		(property "Reference" "J2"
-			(at 74.93 148.5899 0)
+			(at 74.93 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +5417,7 @@
 			)
 		)
 		(property "Value" "Ematch1"
-			(at 74.93 151.1299 0)
+			(at 74.93 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +5426,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 72.39 156.21 0)
+			(at 72.39 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 149.86 0)
+			(at 71.12 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +5444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 149.86 0)
+			(at 71.12 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,81 +5468,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_3_P5.00mm")
-		(at 149.86 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6719db70-53eb-4b9d-89e3-b504415b0671")
-		(property "Reference" "J8"
-			(at 153.67 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_3_P5.00mm"
-			(at 153.67 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
-			(at 151.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aa2a47f0-af00-4b0f-b22c-0d8eacf0aaab")
-		)
-		(pin "1"
-			(uuid "7d1d2b2e-fee9-4ccb-ad6c-8ec8e06dec41")
-		)
-		(pin "3"
-			(uuid "7a60b4a6-bd9a-4340-8c1e-564ab4b3a43f")
-		)
-		(instances
-			(project "Fill_Station_ControlBoard"
-				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/2aa4b752-d5dd-41d5-96a2-06ece1279133"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 128.27 151.13 0)
+		(at 128.27 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5135,7 +5477,7 @@
 		(dnp no)
 		(uuid "68e772a1-93ec-47f5-a576-bc91b94fc318")
 		(property "Reference" "C11"
-			(at 121.158 148.59 0)
+			(at 130.81 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5486,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 120.396 151.638 0)
+			(at 130.556 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5495,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
-			(at 129.2352 154.94 0)
+			(at 129.2352 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5504,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 151.13 0)
+			(at 128.27 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5513,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 128.27 151.13 0)
+			(at 128.27 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5538,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 54.61 151.13 0)
+		(at 53.34 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5204,7 +5546,7 @@
 		(dnp no)
 		(uuid "717ea495-9631-48d7-bf01-a513f7956e06")
 		(property "Reference" "C10"
-			(at 47.498 148.59 0)
+			(at 55.88 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +5555,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 46.736 151.638 0)
+			(at 55.88 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,7 +5564,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
-			(at 55.5752 154.94 0)
+			(at 54.3052 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,7 +5573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 151.13 0)
+			(at 53.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5582,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 54.61 151.13 0)
+			(at 53.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5530,17 +5872,16 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_3_P5.00mm")
-		(at 149.86 74.93 0)
+		(lib_id "Device:C")
+		(at 118.11 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c98cec4-7541-492e-9aeb-c5597c35b15e")
-		(property "Reference" "J9"
-			(at 153.67 73.6599 0)
+		(uuid "7d1b1053-e33f-48cc-bb60-76774d884acd")
+		(property "Reference" "C81"
+			(at 121.92 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,8 +5889,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_3_P5.00mm"
-			(at 153.67 76.1999 0)
+		(property "Value" "1u"
+			(at 121.92 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,8 +5898,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
-			(at 151.13 82.55 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 119.0752 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,8 +5907,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 149.86 73.66 0)
+		(property "Datasheet" "~"
+			(at 118.11 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,8 +5916,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 149.86 74.93 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,18 +5926,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "bff73d10-edc0-4db1-9514-a42699db7b35")
+			(uuid "ce61ea55-2456-448f-b25e-2a74df82283c")
 		)
 		(pin "1"
-			(uuid "1cd00217-081d-4e91-b68d-975dc31ec2fd")
-		)
-		(pin "3"
-			(uuid "ae84e2a5-9697-4d0b-911e-07da0f3b22a3")
+			(uuid "a467133e-3d71-4dcb-854e-61a963ac00e4")
 		)
 		(instances
 			(project "Fill_Station_ControlBoard"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/2aa4b752-d5dd-41d5-96a2-06ece1279133"
-					(reference "J9")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -5952,9 +6290,9 @@
 		(at 106.68 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9419eab6-f19e-4ad9-87f6-9c9e4fa79cdb")
 		(property "Reference" "J3"
@@ -6217,6 +6555,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 39.37 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b621a2b1-f421-4107-8da7-c21ab5e0cfa2")
+		(property "Reference" "C80"
+			(at 43.18 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 43.18 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 40.3352 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 39.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba11f46f-2879-41f8-bdd3-dda6b65e17e6")
+		)
+		(pin "1"
+			(uuid "c1787422-281a-4655-9355-65954ac1e1d0")
+		)
+		(instances
+			(project "Fill_Station_ControlBoard"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/2aa4b752-d5dd-41d5-96a2-06ece1279133"
+					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 76.2 35.56 0)
 		(mirror y)
@@ -6349,16 +6756,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 128.27 154.94 0)
+		(lib_id "Device:R_US")
+		(at 62.23 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cbed6702-1db4-4746-98c3-8dcb165d4f6b")
-		(property "Reference" "#PWR036"
-			(at 128.27 161.29 0)
+		(uuid "c654bbf4-e3cf-48da-9003-e58c81ef4919")
+		(property "Reference" "R55"
+			(at 63.754 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 64.008 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 63.246 148.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,16 +6791,69 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 128.27 158.75 0)
+		(property "Datasheet" "~"
+			(at 62.23 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 154.94 0)
+		(property "Description" "Resistor, US symbol"
+			(at 62.23 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee080f68-cf31-4bb2-b5f5-2e6b5b797b1e")
+		)
+		(pin "2"
+			(uuid "cf513bad-dbb2-4397-ba82-7783bf8e3679")
+		)
+		(instances
+			(project "Fill_Station_ControlBoard"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/2aa4b752-d5dd-41d5-96a2-06ece1279133"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_3_P3.50mm")
+		(at 149.86 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c86fb7b9-c6f3-487d-a2d8-0d7597c83b86")
+		(property "Reference" "J8"
+			(at 153.67 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_3_P3.50mm"
+			(at 153.67 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +6862,78 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 154.94 0)
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7258e6ec-ffb5-4373-9e5d-a598f950b574")
+		)
+		(pin "2"
+			(uuid "74895089-c841-46f1-9719-8cf519fde7a8")
+		)
+		(pin "3"
+			(uuid "a768fbce-e0c2-4f26-bea0-c98fc4aa9942")
+		)
+		(instances
+			(project "Fill_Station_ControlBoard"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/2aa4b752-d5dd-41d5-96a2-06ece1279133"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbed6702-1db4-4746-98c3-8dcb165d4f6b")
+		(property "Reference" "#PWR036"
+			(at 121.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6393,7 +6942,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 154.94 0)
+			(at 121.92 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6414,25 +6963,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 135.89 143.51 0)
+		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_3_P3.50mm")
+		(at 149.86 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cf5e89b3-47a9-4bca-96e8-c6d765b904d7")
-		(property "Reference" "#PWR040"
-			(at 135.89 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12.8V"
-			(at 133.35 139.954 0)
+		(fields_autoplaced yes)
+		(uuid "ccc42df1-c7f1-4b6c-8108-273692e59e06")
+		(property "Reference" "J7"
+			(at 153.67 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,8 +6981,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.89 143.51 0)
+		(property "Value" "Screw_Terminal_3_P3.50mm"
+			(at 153.67 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+			(at 151.13 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +7000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 143.51 0)
+			(at 149.86 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,7 +7009,79 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 143.51 0)
+			(at 149.86 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63de9b2b-3b5f-4cc8-b493-9c8041cb860d")
+		)
+		(pin "2"
+			(uuid "2c633ba3-59c1-4bc9-bf59-85ca7c35109e")
+		)
+		(pin "3"
+			(uuid "d20a34c3-70d2-4997-9a2c-270ff26817b5")
+		)
+		(instances
+			(project "Fill_Station_ControlBoard"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/2aa4b752-d5dd-41d5-96a2-06ece1279133"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 135.89 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf5e89b3-47a9-4bca-96e8-c6d765b904d7")
+		(property "Reference" "#PWR040"
+			(at 135.89 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "12.8V"
+			(at 133.35 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +7187,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "*"
+		(property "Value" "680"
 			(at 90.17 119.8985 0)
 			(effects
 				(font
@@ -6611,88 +7233,6 @@
 			(project "Fill_Station_ControlBoard"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/2aa4b752-d5dd-41d5-96a2-06ece1279133"
 					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_6_P5.00mm")
-		(at 243.84 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d64a1016-edf0-481b-985e-8834e6474521")
-		(property "Reference" "J10"
-			(at 247.65 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_6_P5.00mm"
-			(at 247.65 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-6-5.0-H_1x06_P5.00mm_Horizontal"
-			(at 245.11 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 243.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8c4a8fdf-a1d5-4789-aaca-403a11eae487")
-		)
-		(pin "1"
-			(uuid "f04d2859-6666-4a62-ac4f-3f06528d30f7")
-		)
-		(pin "4"
-			(uuid "ed4a6ff3-e9d1-4452-923d-20921a6e90e5")
-		)
-		(pin "6"
-			(uuid "598d56df-1ef4-43d1-9801-c6be921693d5")
-		)
-		(pin "2"
-			(uuid "9db2a6e5-805c-4a5c-9ea6-c5e124ae677a")
-		)
-		(pin "5"
-			(uuid "28bb97fa-0521-465a-b9d2-06e675877bf6")
-		)
-		(instances
-			(project ""
-				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/2aa4b752-d5dd-41d5-96a2-06ece1279133"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6762,6 +7302,75 @@
 			(project "Fill_Station_ControlBoard"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/2aa4b752-d5dd-41d5-96a2-06ece1279133"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 135.89 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dae17e39-3476-4662-88ea-407788a61d9b")
+		(property "Reference" "R56"
+			(at 137.414 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 137.668 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 136.906 151.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 135.89 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7a4b54d-cc80-46bd-a4f4-81fbd28a1bc2")
+		)
+		(pin "2"
+			(uuid "9ae38729-3a1b-4183-9b36-534a36a56380")
+		)
+		(instances
+			(project "Fill_Station_ControlBoard"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/2aa4b752-d5dd-41d5-96a2-06ece1279133"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -7041,7 +7650,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 62.23 143.51 0)
+		(at 62.23 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7049,7 +7658,7 @@
 		(dnp no)
 		(uuid "f61e1a4b-e921-4957-96e9-32d6fe1980ff")
 		(property "Reference" "#PWR027"
-			(at 62.23 147.32 0)
+			(at 62.23 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +7667,7 @@
 			)
 		)
 		(property "Value" "12.8V"
-			(at 59.69 139.954 0)
+			(at 59.69 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,7 +7676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 143.51 0)
+			(at 62.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 143.51 0)
+			(at 62.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +7694,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 143.51 0)
+			(at 62.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
