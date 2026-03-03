@@ -2606,6 +2606,16 @@
 		)
 		(uuid 7ef5563e-e669-418c-b7be-c2c54ddadee3)
 	)
+	(text "Buzzer\n"
+		(exclude_from_sim no)
+		(at 207.264 145.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e8226df-cd65-4e5c-886b-e5680b970202")
+	)
 	(text "GPIO\n"
 		(exclude_from_sim no)
 		(at 192.278 26.924 0)
@@ -2616,6 +2626,16 @@
 			(justify left)
 		)
 		(uuid "33cebbd4-43b0-4ff8-b2f0-b7e9f4123750")
+	)
+	(text "I2C\n"
+		(exclude_from_sim no)
+		(at 191.516 139.192 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a2b69bb-a726-43c6-8fd2-4b5409e95501")
 	)
 	(text "Heater - Relay\n"
 		(exclude_from_sim no)
@@ -2638,6 +2658,16 @@
 			(justify left)
 		)
 		(uuid "573ef443-ee9c-457f-b375-7c47056fb386")
+	)
+	(text "maybe increase\n"
+		(exclude_from_sim no)
+		(at 52.07 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d50f98c-b3d3-40ed-beeb-c9720cd432a1")
 	)
 	(text "Servo + Heater\n"
 		(exclude_from_sim no)

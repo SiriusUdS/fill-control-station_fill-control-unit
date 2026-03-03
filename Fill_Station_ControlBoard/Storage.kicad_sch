@@ -1149,10 +1149,6 @@
 		(color 0 0 0 0)
 		(uuid "f0d0c93f-f843-4cf3-9ea5-115747688a58")
 	)
-	(no_connect
-		(at 162.56 223.52)
-		(uuid "cd7e3c1d-2eb7-4b50-ad85-d2c90d88054a")
-	)
 	(wire
 		(pts
 			(xy 140.97 110.49) (xy 140.97 72.39)
@@ -1472,6 +1468,16 @@
 			(type default)
 		)
 		(uuid "50dc6427-9db9-416f-8e3a-a763ada02c51")
+	)
+	(wire
+		(pts
+			(xy 104.14 97.79) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f2e6a3-0239-4fba-a760-3663c5eb31d3")
 	)
 	(wire
 		(pts
@@ -1905,7 +1911,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 97.79) (xy 124.46 97.79)
+			(xy 71.12 97.79) (xy 96.52 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1985,6 +1991,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 223.52) (xy 162.56 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90f4863-9c77-455e-a98c-87fcc5c0c925")
+	)
+	(wire
+		(pts
 			(xy 162.56 210.82) (xy 160.02 210.82)
 		)
 		(stroke
@@ -2045,7 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 208.28) (xy 125.73 208.28)
+			(xy 72.39 208.28) (xy 96.52 208.28)
 		)
 		(stroke
 			(width 0)
@@ -2112,6 +2128,16 @@
 			(type default)
 		)
 		(uuid "f5e9049f-9ce1-45ae-913f-0391fb10e450")
+	)
+	(wire
+		(pts
+			(xy 104.14 208.28) (xy 125.73 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d7320c-561e-4736-9032-b44d8c332c09")
 	)
 	(wire
 		(pts
@@ -2295,6 +2321,17 @@
 			(justify right)
 		)
 		(uuid "fbcc9850-3fe5-45c7-8442-d15852e320fc")
+	)
+	(hierarchical_label "SD2.DET"
+		(shape output)
+		(at 151.13 223.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffbd3cc7-de89-492b-b11d-8b51b86e560c")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -2560,6 +2597,73 @@
 			(project "Fill_Station_ControlBoard"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/86dfffbf-ac08-41cb-ab8f-382cca5b005c"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 100.33 208.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0faee1d5-7dcb-410a-aaaa-7deb7145353e")
+		(property "Reference" "R100"
+			(at 96.012 207.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 96.774 209.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 100.584 207.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 100.33 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "299f5455-2f23-4a50-9903-bf8ca91331c4")
+		)
+		(pin "1"
+			(uuid "9ccd56c3-b6f8-40bb-b5ae-093b429a3d52")
+		)
+		(instances
+			(project "Fill_Station_ControlBoard"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/86dfffbf-ac08-41cb-ab8f-382cca5b005c"
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -4180,6 +4284,73 @@
 			(project "Fill_Station_ControlBoard"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/86dfffbf-ac08-41cb-ab8f-382cca5b005c"
 					(reference "R98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 100.33 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd76ac3f-417b-4c58-8a94-c019f3cb6b1b")
+		(property "Reference" "R99"
+			(at 96.012 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 96.774 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 100.584 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52f35b9e-061a-4136-bdbc-d6ba094449bc")
+		)
+		(pin "1"
+			(uuid "1c20c18b-56a8-4d5f-9734-52c7529bce60")
+		)
+		(instances
+			(project "Fill_Station_ControlBoard"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/86dfffbf-ac08-41cb-ab8f-382cca5b005c"
+					(reference "R99")
 					(unit 1)
 				)
 			)

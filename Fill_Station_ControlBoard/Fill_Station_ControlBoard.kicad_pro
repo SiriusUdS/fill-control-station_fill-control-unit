@@ -58,9 +58,19 @@
           "width": 0.0
         },
         {
+          "gap": 0.5,
+          "via_gap": 0.0,
+          "width": 0.0965
+        },
+        {
           "gap": 0.2032,
           "via_gap": 0.0,
-          "width": 0.1565
+          "width": 0.124
+        },
+        {
+          "gap": 0.4,
+          "via_gap": 0.0,
+          "width": 0.1453
         }
       ],
       "drc_exclusions": [],
@@ -130,7 +140,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -193,6 +203,7 @@
       ],
       "track_widths": [
         0.0,
+        0.124,
         0.1565,
         1.0
       ],
@@ -479,9 +490,9 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.5,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.0965,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -489,7 +500,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.1565,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -658,16 +669,20 @@
       "MCU"
     ],
     [
-      "89a4eee6-f04c-46ec-a929-95355d7dfe4e",
-      "CAN FD"
-    ],
-    [
       "5d95e092-c448-4af3-bba5-d28c074fd0e0",
       "Alimentation"
     ],
     [
+      "89a4eee6-f04c-46ec-a929-95355d7dfe4e",
+      "CAN FD"
+    ],
+    [
       "bd5f43b0-eb43-448d-8e3c-0f3b56e55349",
       "USB"
+    ],
+    [
+      "49d21041-9b14-43cd-af09-08081d3f8be1",
+      "Monitor"
     ]
   ],
   "text_variables": {}
