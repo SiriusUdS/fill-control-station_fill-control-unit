@@ -1991,7 +1991,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 223.52) (xy 162.56 223.52)
+			(xy 72.39 223.52) (xy 162.56 223.52)
 		)
 		(stroke
 			(width 0)
@@ -2324,7 +2324,7 @@
 	)
 	(hierarchical_label "SD2.DET"
 		(shape output)
-		(at 151.13 223.52 180)
+		(at 72.39 223.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)

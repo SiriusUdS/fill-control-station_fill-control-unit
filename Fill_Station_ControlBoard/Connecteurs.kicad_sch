@@ -3454,8 +3454,16 @@
 		(uuid "05fd866d-31f3-49e3-96dd-f130b4e19e39")
 	)
 	(no_connect
+		(at 312.42 107.95)
+		(uuid "4afbb70c-c668-4092-bd8d-fca0f90d564b")
+	)
+	(no_connect
 		(at 152.4 161.29)
 		(uuid "4b74c655-0af3-4290-9f27-b26469a076a7")
+	)
+	(no_connect
+		(at 312.42 105.41)
+		(uuid "b9aa1449-f268-47f2-9633-4507569a63b0")
 	)
 	(wire
 		(pts
@@ -4646,16 +4654,6 @@
 			(justify left bottom)
 		)
 		(uuid "69b75cf7-a01f-4308-845f-80c77ecd83ec")
-	)
-	(label "TXEN"
-		(at 144.78 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d41905b-df31-4466-b793-04233983f7fc")
 	)
 	(label "RX_N"
 		(at 207.01 118.11 0)

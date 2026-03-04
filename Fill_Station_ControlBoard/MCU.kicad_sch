@@ -6962,10 +6962,6 @@
 		(uuid "0550e652-86d1-4f2c-806a-184df8310194")
 	)
 	(no_connect
-		(at 238.76 113.03)
-		(uuid "06f9fc54-cd6a-461b-b5a8-f776c1b04e97")
-	)
-	(no_connect
 		(at 238.76 148.59)
 		(uuid "0ce9601c-dd93-4ed3-8b0e-c75dde42565f")
 	)
@@ -6978,8 +6974,8 @@
 		(uuid "0f177324-def4-4308-9148-3c7fc45284e1")
 	)
 	(no_connect
-		(at 142.24 181.61)
-		(uuid "12a0563f-77f3-4ded-9372-e9a9e27b3f45")
+		(at 142.24 171.45)
+		(uuid "13ba15de-c21d-44b6-b4ca-9bd05cd13f26")
 	)
 	(no_connect
 		(at 238.76 158.75)
@@ -6998,32 +6994,20 @@
 		(uuid "190f4b23-9e44-4d78-a4da-6e434a4ef43c")
 	)
 	(no_connect
-		(at 142.24 123.19)
-		(uuid "2986b485-7502-4948-9f8b-71f6991f7708")
+		(at 142.24 224.79)
+		(uuid "1a0ea562-e217-4f16-8343-c48ea917be81")
 	)
 	(no_connect
-		(at 238.76 110.49)
-		(uuid "2dc388fd-6dde-4d9e-979c-a6fd9eacdf34")
+		(at 142.24 123.19)
+		(uuid "2986b485-7502-4948-9f8b-71f6991f7708")
 	)
 	(no_connect
 		(at 53.34 110.49)
 		(uuid "3024e045-f85a-4cb3-b62e-7788c7e99486")
 	)
 	(no_connect
-		(at 142.24 171.45)
-		(uuid "31c6f78a-1f17-4a50-9a80-5fb15aaa2d62")
-	)
-	(no_connect
-		(at 142.24 176.53)
-		(uuid "369b2b65-5bd6-4fc0-950f-e764d902fddc")
-	)
-	(no_connect
 		(at 238.76 80.01)
 		(uuid "381496a3-278a-4495-bd1c-ebf542b7a2fb")
-	)
-	(no_connect
-		(at 142.24 179.07)
-		(uuid "382c55e6-b928-4012-b745-c957466adcf9")
 	)
 	(no_connect
 		(at 142.24 130.81)
@@ -7032,10 +7016,6 @@
 	(no_connect
 		(at 205.74 44.45)
 		(uuid "431b18d5-863c-4ea5-a5a4-1f83e21257c1")
-	)
-	(no_connect
-		(at 142.24 201.93)
-		(uuid "4622caa7-c29f-4a15-8b50-6421ad415814")
 	)
 	(no_connect
 		(at 142.24 146.05)
@@ -7102,10 +7082,6 @@
 		(uuid "8689a079-2a38-40cd-ba39-cd04a02a9d6b")
 	)
 	(no_connect
-		(at 142.24 100.33)
-		(uuid "88fd76f6-0318-408a-a0c6-7c3805d32ea3")
-	)
-	(no_connect
 		(at 238.76 92.71)
 		(uuid "8a5b18aa-3a00-4c81-8e1d-e282792b4d58")
 	)
@@ -7134,16 +7110,16 @@
 		(uuid "98227ef5-1d21-44b5-ade1-6976b36898f6")
 	)
 	(no_connect
-		(at 142.24 191.77)
-		(uuid "9a264c88-c1ea-4a1c-a1f3-9aeb6f0c71b8")
+		(at 238.76 191.77)
+		(uuid "98c8312c-1ae1-4e0c-bdfc-0fbb2390bb78")
 	)
 	(no_connect
 		(at 238.76 173.99)
 		(uuid "a0f8e576-6263-4112-a089-2e831a65a1a3")
 	)
 	(no_connect
-		(at 238.76 115.57)
-		(uuid "ae2e1eb7-02bf-42e8-a0a1-8c9481948003")
+		(at 142.24 214.63)
+		(uuid "a59649cb-81f0-4012-857f-12f5e3a1e2e7")
 	)
 	(no_connect
 		(at 142.24 161.29)
@@ -7164,10 +7140,6 @@
 	(no_connect
 		(at 142.24 128.27)
 		(uuid "bf6973d3-de91-4752-8322-eebe1a0acfcd")
-	)
-	(no_connect
-		(at 142.24 173.99)
-		(uuid "c0b2a3ee-30f3-468d-b6e0-440ce61aae40")
 	)
 	(no_connect
 		(at 142.24 189.23)
@@ -7210,12 +7182,20 @@
 		(uuid "d374048f-d0c3-4019-8fd4-fc39bfc6b1ca")
 	)
 	(no_connect
+		(at 142.24 212.09)
+		(uuid "dba6ef79-cc2b-4b3f-a83e-4ee4c616bf07")
+	)
+	(no_connect
 		(at 238.76 184.15)
 		(uuid "dd35242d-5f09-428f-8bfd-3c079a473238")
 	)
 	(no_connect
 		(at 142.24 102.87)
 		(uuid "de605a9e-7050-405f-84f3-8a1e4a8089e1")
+	)
+	(no_connect
+		(at 238.76 196.85)
+		(uuid "df16f0d4-a591-47fa-85b0-d019ca59e44b")
 	)
 	(no_connect
 		(at 238.76 146.05)
@@ -9401,16 +9381,16 @@
 		)
 		(uuid "0bd367f0-764b-4bd4-81ad-524730f6725d")
 	)
-	(hierarchical_label "Servo.Signal1"
+	(hierarchical_label "E-Match1_Det"
 		(shape input)
-		(at 142.24 204.47 180)
+		(at 238.76 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "0c4a4a61-3b56-4ae4-94ad-bfd3662325a4")
+		(uuid "0d1ebf84-3f9f-4212-8732-d04b660a8d47")
 	)
 	(hierarchical_label "Eth.MDIO"
 		(shape bidirectional)
@@ -9433,6 +9413,17 @@
 			(justify left)
 		)
 		(uuid "1bff0edf-01a8-4aa0-b5b3-0f6ee1e18c7d")
+	)
+	(hierarchical_label "LED3"
+		(shape output)
+		(at 238.76 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "246c8dc4-4026-4045-aa1b-84ec649c3f9e")
 	)
 	(hierarchical_label "Eth.TXEN"
 		(shape output)
@@ -9467,6 +9458,17 @@
 		)
 		(uuid "313e8f16-e2c9-4a54-bb80-5ba1fc24a5aa")
 	)
+	(hierarchical_label "E-Match2_Det"
+		(shape input)
+		(at 238.76 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33a452ed-0544-4bf9-8d4b-6bfc461ef1a0")
+	)
 	(hierarchical_label "SD2.DAT2"
 		(shape output)
 		(at 238.76 105.41 0)
@@ -9489,38 +9491,16 @@
 		)
 		(uuid "432a0d44-5a12-4349-9dd0-b43d04ed4357")
 	)
-	(hierarchical_label "Heater1"
-		(shape output)
-		(at 142.24 194.31 180)
+	(hierarchical_label "PM_SDA"
+		(shape bidirectional)
+		(at 142.24 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "43e12fe9-00bc-44ea-ba12-3ffe48fd4dfd")
-	)
-	(hierarchical_label "GPIO4"
-		(shape input)
-		(at 142.24 219.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a194227-03cf-4227-9ef0-16fdd5fbea03")
-	)
-	(hierarchical_label "Servo.Signal3"
-		(shape input)
-		(at 142.24 209.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "500e893f-1c6c-4fe2-93f4-e055800572ee")
+		(uuid "517ff673-4f38-475d-8bd0-a65138a98771")
 	)
 	(hierarchical_label "SD1.DAT3"
 		(shape output)
@@ -9532,6 +9512,17 @@
 			(justify left)
 		)
 		(uuid "5c4817c7-cf28-4b32-a523-bc5ac55d1e14")
+	)
+	(hierarchical_label "PM_CRIT"
+		(shape output)
+		(at 142.24 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f5ff851-a66c-448e-b2cd-a6f2d6c72ac9")
 	)
 	(hierarchical_label "Eth.REFCLKO"
 		(shape input)
@@ -9557,7 +9548,7 @@
 	)
 	(hierarchical_label "SD2.DET"
 		(shape input)
-		(at 285.75 156.21 0)
+		(at 238.76 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9576,6 +9567,17 @@
 			(justify right)
 		)
 		(uuid "6ff34785-12ee-4e51-8074-e0968d496517")
+	)
+	(hierarchical_label "Heater1"
+		(shape output)
+		(at 142.24 222.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71f5f4b5-f513-4aac-bd7a-b1a69b3ec2f4")
 	)
 	(hierarchical_label "Eth.RXD_P"
 		(shape input)
@@ -9599,17 +9601,6 @@
 		)
 		(uuid "752d69f9-3090-4013-b874-08e8a73f9f2f")
 	)
-	(hierarchical_label "LED3"
-		(shape output)
-		(at 238.76 196.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "784c0789-ff2b-4a5f-83a8-6a74164b3f8f")
-	)
 	(hierarchical_label "SD2.CLK"
 		(shape output)
 		(at 238.76 199.39 0)
@@ -9621,16 +9612,16 @@
 		)
 		(uuid "798f6cd1-baff-43d6-9077-675db8f6bb6b")
 	)
-	(hierarchical_label "E-Match1_Det"
-		(shape input)
-		(at 238.76 219.71 0)
+	(hierarchical_label "E-Match1"
+		(shape output)
+		(at 238.76 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7d77aacb-e914-42a5-ad7e-1e3c90306ab2")
+		(uuid "7b081e1d-648e-45b2-982f-1513e68a805a")
 	)
 	(hierarchical_label "Eth.RST"
 		(shape output)
@@ -9653,17 +9644,6 @@
 			(justify left)
 		)
 		(uuid "7ede8d2c-c3d0-47d2-9961-2c80f105a3a5")
-	)
-	(hierarchical_label "GPIO5"
-		(shape input)
-		(at 142.24 222.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "853c9cf5-1651-40b7-952e-723d7461eef0")
 	)
 	(hierarchical_label "USBC.DP"
 		(shape bidirectional)
@@ -9689,36 +9669,36 @@
 	)
 	(hierarchical_label "Heater3"
 		(shape output)
-		(at 142.24 199.39 180)
+		(at 142.24 217.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8f161fda-138d-4840-a297-3541e6c5486e")
+		(uuid "8d92b6e7-2382-428a-9795-523bc6ec6558")
 	)
-	(hierarchical_label "GPIO6"
+	(hierarchical_label "GPIO3"
 		(shape input)
-		(at 142.24 224.79 180)
+		(at 142.24 196.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "92b412e0-da33-4da0-b548-acf16cd3389a")
+		(uuid "9ffd7da6-68f4-4b6b-ba7d-00162bc52234")
 	)
-	(hierarchical_label "E-Match1"
+	(hierarchical_label "LED2"
 		(shape output)
-		(at 238.76 222.25 0)
+		(at 238.76 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "a0fb066a-b5c8-45b0-bc9a-a20b0bece99d")
+		(uuid "a29bb050-0e3f-423c-bab1-22d7c101ee9e")
 	)
 	(hierarchical_label "Eth.RXD_N"
 		(shape input)
@@ -9742,28 +9722,6 @@
 		)
 		(uuid "a612173c-14fa-4d2f-bdd8-9fc86f53036c")
 	)
-	(hierarchical_label "LED1"
-		(shape output)
-		(at 238.76 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b2f20f3e-18e3-4b05-a2a6-d7556c2e7af1")
-	)
-	(hierarchical_label "GPIO1"
-		(shape input)
-		(at 142.24 212.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b366442e-03c9-4326-a4e1-7e950af2a824")
-	)
 	(hierarchical_label "Eth.MDC"
 		(shape output)
 		(at 238.76 143.51 0)
@@ -9786,16 +9744,27 @@
 		)
 		(uuid "b8c23939-a906-4b9d-a550-baecf6532d62")
 	)
-	(hierarchical_label "Heater2"
-		(shape output)
-		(at 142.24 196.85 180)
+	(hierarchical_label "GPIO4"
+		(shape input)
+		(at 142.24 199.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "bae0e5e4-0ce8-4891-b911-e348d1cf671d")
+		(uuid "ba5f62c1-1581-4d8d-98a8-58ee18196d46")
+	)
+	(hierarchical_label "GPIO2"
+		(shape input)
+		(at 142.24 194.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba7eb713-9f15-4b94-8e0a-9cd0e7e9e6a2")
 	)
 	(hierarchical_label "SD2.DAT3"
 		(shape output)
@@ -9808,16 +9777,27 @@
 		)
 		(uuid "bb23284e-518f-467e-a3b5-62797b28c779")
 	)
-	(hierarchical_label "E-Match2_Det"
+	(hierarchical_label "GPIO1"
 		(shape input)
-		(at 238.76 214.63 0)
+		(at 142.24 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c94bd7e0-4623-45d2-bed5-eab0319b1790")
+	)
+	(hierarchical_label "E-Match2"
+		(shape output)
+		(at 238.76 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c464f8d1-e962-4174-adbb-90740ebaeb8e")
+		(uuid "ca9968c7-21a7-45d8-8f33-a781187d16c5")
 	)
 	(hierarchical_label "Eth.CRS_DV"
 		(shape input)
@@ -9830,16 +9810,16 @@
 		)
 		(uuid "d1551539-b993-4e04-8431-c895c6e54545")
 	)
-	(hierarchical_label "GPIO2"
+	(hierarchical_label "Servo.Signal1"
 		(shape input)
-		(at 142.24 214.63 180)
+		(at 142.24 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d7505f5b-edfc-494f-9379-31e1eb301b40")
+		(uuid "dc1a7cae-e878-4ab3-8472-8ea96701f422")
 	)
 	(hierarchical_label "Eth.TXD_N"
 		(shape output)
@@ -9852,27 +9832,38 @@
 		)
 		(uuid "de92bc4f-8619-4ac9-b21a-2ea318be4dad")
 	)
-	(hierarchical_label "E-Match2"
+	(hierarchical_label "PM_TC"
 		(shape output)
-		(at 238.76 217.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e08edb1e-7c9c-431a-a43d-618853629c40")
-	)
-	(hierarchical_label "GPIO3"
-		(shape input)
-		(at 142.24 217.17 180)
+		(at 142.24 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ec2d4e75-1056-49ba-a209-d8664ab5296c")
+		(uuid "df77efb3-14fd-489e-ac49-409fe43bade2")
+	)
+	(hierarchical_label "GPIO5"
+		(shape input)
+		(at 142.24 201.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e09f2b10-0248-4ea3-a48a-d63536ceade1")
+	)
+	(hierarchical_label "LED1"
+		(shape output)
+		(at 238.76 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec3e8dfb-d206-46f7-ba74-221a5844336f")
 	)
 	(hierarchical_label "CAN.TXD"
 		(shape output)
@@ -9885,16 +9876,49 @@
 		)
 		(uuid "ec56c59a-61bb-47ad-96da-47c8d4107552")
 	)
-	(hierarchical_label "LED2"
+	(hierarchical_label "PM_WARN"
 		(shape output)
-		(at 238.76 194.31 0)
+		(at 142.24 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "f679e090-2efe-4659-b865-2c3e20c019b8")
+		(uuid "edc6b40d-8f4f-4dc4-a855-3cd0863bb1c4")
+	)
+	(hierarchical_label "Servo.Signal3"
+		(shape input)
+		(at 142.24 204.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee5e8efd-9d87-471c-b882-a95c55476a31")
+	)
+	(hierarchical_label "PM_SCL"
+		(shape output)
+		(at 142.24 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f08d5b4b-d717-415e-b253-2a07ba3ac27a")
+	)
+	(hierarchical_label "Heater2"
+		(shape output)
+		(at 142.24 219.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f54751bf-3754-4d24-9375-4cb548a4c866")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -13486,10 +13510,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "688ee62d-c0f5-4378-8130-5f2bd957b09f")
 		(property "Reference" "R89"
-			(at 245.11 114.3 90)
+			(at 246.634 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13497,7 +13520,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 245.11 116.84 90)
+			(at 245.364 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15189,7 +15212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0CSL_D1_V1:BatteryHolder_BHX1_1025"
+		(property "Footprint" "Battery:Battery_Panasonic_CR2032-HFN_Horizontal_CircularHoles"
 			(at 176.53 45.72 0)
 			(effects
 				(font

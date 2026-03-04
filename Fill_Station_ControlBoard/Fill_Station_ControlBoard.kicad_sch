@@ -117,6 +117,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 99.06) (xy 99.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7224f0-4ba8-49d5-a282-13adedc3449f")
+	)
+	(wire
+		(pts
 			(xy 252.73 76.2) (xy 303.53 76.2)
 		)
 		(stroke
@@ -134,6 +144,16 @@
 			(type default)
 		)
 		(uuid "37852491-8ca0-4e0b-8f5b-a4f87b94cfe4")
+	)
+	(wire
+		(pts
+			(xy 99.06 106.68) (xy 176.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d8295e-c535-4ad8-a068-d772656e6daf")
 	)
 	(wire
 		(pts
@@ -194,6 +214,16 @@
 			(type default)
 		)
 		(uuid "6031d90c-f3ac-4f27-bda1-0970ddff46f4")
+	)
+	(wire
+		(pts
+			(xy 99.06 109.22) (xy 176.53 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60555d22-5a97-4ea7-bbbd-10fc429605b5")
 	)
 	(wire
 		(pts
@@ -407,6 +437,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 104.14) (xy 176.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b59a20-ac98-45b7-8600-bad4fa9e0ec2")
+	)
+	(wire
+		(pts
 			(xy 252.73 105.41) (xy 303.53 105.41)
 		)
 		(stroke
@@ -504,6 +544,16 @@
 			(type default)
 		)
 		(uuid "f6cfdb5e-3623-46a3-bade-d894496d0f96")
+	)
+	(wire
+		(pts
+			(xy 99.06 101.6) (xy 176.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa38837f-b4c1-4183-8cf5-ddfd908e4184")
 	)
 	(sheet
 		(at 303.53 149.86)
@@ -870,48 +920,6 @@
 		)
 	)
 	(sheet
-		(at 44.45 36.83)
-		(size 83.82 43.18)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "49d21041-9b14-43cd-af09-08081d3f8be1")
-		(property "Sheetname" "Monitor"
-			(at 44.45 36.1184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Monitor.kicad_sch"
-			(at 44.45 80.5946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Fill_Station_ControlBoard"
-				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 60.96 96.52)
 		(size 38.1 38.1)
 		(exclude_from_sim no)
@@ -968,6 +976,56 @@
 		(pin "LED3" input
 			(at 99.06 123.19 0)
 			(uuid "c23eca1a-f49d-4f09-86b6-952ff30f969e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PM_SDA" bidirectional
+			(at 99.06 99.06 0)
+			(uuid "eef8b2f7-91b9-4623-b4b2-a97f767222d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PM_SCL" input
+			(at 99.06 101.6 0)
+			(uuid "edc09d08-394d-4816-b3d4-e2983557a78a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PM_CRIT" output
+			(at 99.06 104.14 0)
+			(uuid "50b7cf85-7703-46a1-95ed-ac3ef916d33e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PM_TC" output
+			(at 99.06 106.68 0)
+			(uuid "9895a84e-6a7a-4e87-be26-caf1754fc672")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PM_WARN" output
+			(at 99.06 109.22 0)
+			(uuid "6bdf514d-9a3a-48ea-8609-de5a8cf726c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,6 +1869,56 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "PM_SDA" bidirectional
+			(at 176.53 99.06 180)
+			(uuid "a9b54455-7e25-49b7-a0c2-be70b2d9156d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PM_SCL" output
+			(at 176.53 101.6 180)
+			(uuid "e9171497-5f82-4553-a3bb-15a4e8d68cbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PM_WARN" output
+			(at 176.53 109.22 180)
+			(uuid "6352b269-8f26-44ff-8ee6-9e560a91d8ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PM_CRIT" output
+			(at 176.53 104.14 180)
+			(uuid "b4c50e03-b9f5-43fe-9a20-d5e92ec2b172")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PM_TC" output
+			(at 176.53 106.68 180)
+			(uuid "fa8fafb3-0d5b-4f33-8a99-40d175a63a7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
