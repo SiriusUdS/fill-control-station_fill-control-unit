@@ -2354,17 +2354,6 @@
 	)
 	(hierarchical_label "USB_N"
 		(shape output)
-		(at 177.8 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "34b6aaec-8991-4871-8bda-a2202aafa0a5")
-	)
-	(hierarchical_label "USB_P"
-		(shape output)
 		(at 177.8 110.49 0)
 		(effects
 			(font
@@ -2372,7 +2361,18 @@
 			)
 			(justify left)
 		)
-		(uuid "71663122-0efd-4844-88bc-f27c4d3c44fc")
+		(uuid "8a4561a4-6724-4f05-8621-9d38d4ee5ee0")
+	)
+	(hierarchical_label "USB_P"
+		(shape output)
+		(at 177.8 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d12f23b4-280b-437c-8a5d-e84d7a190db9")
 	)
 	(symbol
 		(lib_id "power:+5V")

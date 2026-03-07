@@ -377,16 +377,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 107.95) (xy 303.53 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b24c3a3f-4c39-481d-8a16-2ff81843938e")
-	)
-	(wire
-		(pts
 			(xy 252.73 157.48) (xy 303.53 157.48)
 		)
 		(stroke
@@ -781,16 +771,6 @@
 				(justify left)
 			)
 		)
-		(pin "GPIO6" input
-			(at 303.53 107.95 180)
-			(uuid "509b2d0d-9320-482b-a9f1-2447e05dd6ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "GPIO3" input
 			(at 303.53 100.33 180)
 			(uuid "e8f69f4c-f63f-430c-8f21-3f0592055b7f")
@@ -904,6 +884,16 @@
 		(pin "E-match2" input
 			(at 303.53 60.96 180)
 			(uuid "4e6b36a5-6b3e-4359-abd8-e76592812a74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUZZ" input
+			(at 303.53 109.22 180)
+			(uuid "c4abe68a-8305-46af-b761-49f710994aff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,16 +1474,6 @@
 		(pin "GPIO5" input
 			(at 252.73 105.41 0)
 			(uuid "e9b80494-0a4a-46a6-a0b2-a8bb7a2541b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO6" input
-			(at 252.73 107.95 0)
-			(uuid "c1b4d54e-8606-4c29-abe8-c5352d5e92a1")
 			(effects
 				(font
 					(size 1.27 1.27)

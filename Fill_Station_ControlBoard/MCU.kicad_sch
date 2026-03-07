@@ -6856,6 +6856,12 @@
 		(uuid "d2b146f5-d3c5-4dfc-a70e-df83f01890f3")
 	)
 	(junction
+		(at 246.38 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5cecad0-3161-41c3-89e0-c24943ccd9bc")
+	)
+	(junction
 		(at 398.78 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8639,6 +8645,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 40.64) (xy 252.73 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37458b6-4760-4c3e-bdee-161f3fac680d")
+	)
+	(wire
+		(pts
 			(xy 276.86 48.26) (xy 284.48 48.26)
 		)
 		(stroke
@@ -8829,7 +8845,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 40.64) (xy 252.73 40.64)
+			(xy 220.98 40.64) (xy 246.38 40.64)
 		)
 		(stroke
 			(width 0)
@@ -9206,6 +9222,16 @@
 			(type default)
 		)
 		(uuid "fbcdb140-254f-4931-be55-adfc1310e2cc")
+	)
+	(wire
+		(pts
+			(xy 246.38 38.1) (xy 246.38 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdba9be5-7c26-4273-ac61-f285ac7c7524")
 	)
 	(label "SWDIO"
 		(at 238.76 87.63 0)
@@ -11053,6 +11079,72 @@
 			(project "Fill_Station_ControlBoard"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/e0f29092-a5b7-4c06-8bb6-3f29401186b8"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 246.38 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22c9cb3e-fcb9-4f42-9810-d1a5d6520cc3")
+		(property "Reference" "#PWR08"
+			(at 246.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 244.602 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 246.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d450f7fd-5e62-4f19-adce-063188dc58ed")
+		)
+		(instances
+			(project "Fill_Station_ControlBoard"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/e0f29092-a5b7-4c06-8bb6-3f29401186b8"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
