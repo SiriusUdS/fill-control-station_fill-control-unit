@@ -6964,10 +6964,6 @@
 		(uuid "ff67cff3-310d-4a95-97f2-f646af6262d3")
 	)
 	(no_connect
-		(at 142.24 135.89)
-		(uuid "0550e652-86d1-4f2c-806a-184df8310194")
-	)
-	(no_connect
 		(at 238.76 148.59)
 		(uuid "0ce9601c-dd93-4ed3-8b0e-c75dde42565f")
 	)
@@ -7000,10 +6996,6 @@
 		(uuid "190f4b23-9e44-4d78-a4da-6e434a4ef43c")
 	)
 	(no_connect
-		(at 142.24 224.79)
-		(uuid "1a0ea562-e217-4f16-8343-c48ea917be81")
-	)
-	(no_connect
 		(at 142.24 123.19)
 		(uuid "2986b485-7502-4948-9f8b-71f6991f7708")
 	)
@@ -7014,10 +7006,6 @@
 	(no_connect
 		(at 238.76 80.01)
 		(uuid "381496a3-278a-4495-bd1c-ebf542b7a2fb")
-	)
-	(no_connect
-		(at 142.24 130.81)
-		(uuid "39e483df-8f7f-4604-b8d5-055f1b0295e3")
 	)
 	(no_connect
 		(at 205.74 44.45)
@@ -7050,10 +7038,6 @@
 	(no_connect
 		(at 142.24 113.03)
 		(uuid "5d438ab0-2750-4ba3-96ae-5ca03d3339c3")
-	)
-	(no_connect
-		(at 142.24 133.35)
-		(uuid "6253ab78-920e-474b-a994-14257923aabf")
 	)
 	(no_connect
 		(at 142.24 153.67)
@@ -7128,24 +7112,12 @@
 		(uuid "a59649cb-81f0-4012-857f-12f5e3a1e2e7")
 	)
 	(no_connect
-		(at 142.24 161.29)
-		(uuid "b2066f84-fe3f-4025-ba55-28386b5cf2a5")
-	)
-	(no_connect
-		(at 142.24 163.83)
-		(uuid "b3978849-dcc8-425a-a4c0-5c7e27c785e9")
-	)
-	(no_connect
 		(at 142.24 118.11)
 		(uuid "b861afe9-df96-46d5-b2db-4f94caf8bebc")
 	)
 	(no_connect
 		(at 238.76 62.23)
 		(uuid "bc137ba9-90f6-4ea8-80df-dc11e92e832f")
-	)
-	(no_connect
-		(at 142.24 128.27)
-		(uuid "bf6973d3-de91-4752-8322-eebe1a0acfcd")
 	)
 	(no_connect
 		(at 142.24 189.23)
@@ -7218,10 +7190,6 @@
 	(no_connect
 		(at 142.24 168.91)
 		(uuid "ff32d59e-03c8-4d46-97c0-1339c9c85123")
-	)
-	(no_connect
-		(at 142.24 166.37)
-		(uuid "ff3ccf76-3721-4d43-972b-164242bd266d")
 	)
 	(wire
 		(pts
@@ -9385,6 +9353,17 @@
 		)
 		(uuid "00f9de34-f1c9-4e89-a6bb-f3a3d0470e30")
 	)
+	(hierarchical_label "SPI5.SCK"
+		(shape output)
+		(at 142.24 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01731375-eba4-423a-a1da-23402ac26c6d")
+	)
 	(hierarchical_label "SD1.DAT1"
 		(shape output)
 		(at 238.76 163.83 0)
@@ -9406,6 +9385,17 @@
 			(justify left)
 		)
 		(uuid "0bd367f0-764b-4bd4-81ad-524730f6725d")
+	)
+	(hierarchical_label "SPI4.MISO"
+		(shape input)
+		(at 142.24 219.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0be4d813-a7c7-429c-9cbc-389b3aa4fe43")
 	)
 	(hierarchical_label "E-Match1_Det"
 		(shape input)
@@ -9439,6 +9429,28 @@
 			(justify left)
 		)
 		(uuid "1bff0edf-01a8-4aa0-b5b3-0f6ee1e18c7d")
+	)
+	(hierarchical_label "SPI5.MOSI"
+		(shape output)
+		(at 142.24 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d4c0fbb-19c3-4e54-a6f3-ca728813daa8")
+	)
+	(hierarchical_label "SPI4.CS"
+		(shape output)
+		(at 142.24 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2421a394-8e08-4d7c-b864-9baa80309906")
 	)
 	(hierarchical_label "LED3"
 		(shape output)
@@ -9528,6 +9540,17 @@
 		)
 		(uuid "517ff673-4f38-475d-8bd0-a65138a98771")
 	)
+	(hierarchical_label "SPI4.SCK"
+		(shape output)
+		(at 142.24 217.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "573fa26c-1566-43a4-bb62-e4ee44ec0073")
+	)
 	(hierarchical_label "SD1.DAT3"
 		(shape output)
 		(at 238.76 168.91 0)
@@ -9593,17 +9616,6 @@
 			(justify right)
 		)
 		(uuid "6ff34785-12ee-4e51-8074-e0968d496517")
-	)
-	(hierarchical_label "Heater1"
-		(shape output)
-		(at 142.24 222.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "71f5f4b5-f513-4aac-bd7a-b1a69b3ec2f4")
 	)
 	(hierarchical_label "Eth.RXD_P"
 		(shape input)
@@ -9693,17 +9705,6 @@
 		)
 		(uuid "87c56853-e1e4-42f9-a25a-cc48acdd307e")
 	)
-	(hierarchical_label "Heater3"
-		(shape output)
-		(at 142.24 217.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8d92b6e7-2382-428a-9795-523bc6ec6558")
-	)
 	(hierarchical_label "GPIO3"
 		(shape input)
 		(at 142.24 196.85 180)
@@ -9747,6 +9748,17 @@
 			(justify left)
 		)
 		(uuid "a612173c-14fa-4d2f-bdd8-9fc86f53036c")
+	)
+	(hierarchical_label "SPI5.MISO"
+		(shape input)
+		(at 142.24 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4800e07-dc7d-4d5d-882e-3920f8929c74")
 	)
 	(hierarchical_label "Eth.MDC"
 		(shape output)
@@ -9880,6 +9892,17 @@
 		)
 		(uuid "e09f2b10-0248-4ea3-a48a-d63536ceade1")
 	)
+	(hierarchical_label "SPI5.CS"
+		(shape output)
+		(at 142.24 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4fc62ba-3309-45a1-9eca-8d4438e0a0e2")
+	)
 	(hierarchical_label "LED1"
 		(shape output)
 		(at 238.76 110.49 0)
@@ -9935,16 +9958,16 @@
 		)
 		(uuid "f08d5b4b-d717-415e-b253-2a07ba3ac27a")
 	)
-	(hierarchical_label "Heater2"
+	(hierarchical_label "SPI4.MOSI"
 		(shape output)
-		(at 142.24 219.71 180)
+		(at 142.24 222.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f54751bf-3754-4d24-9375-4cb548a4c866")
+		(uuid "f7f6338e-b86c-4a7b-bb62-e89bac85d72c")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
