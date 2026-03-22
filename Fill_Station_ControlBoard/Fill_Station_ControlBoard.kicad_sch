@@ -377,6 +377,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 109.22) (xy 303.53 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a773a04e-1dc2-45ea-8a3e-bf6fb216747b")
+	)
+	(wire
+		(pts
 			(xy 252.73 179.07) (xy 303.53 179.07)
 		)
 		(stroke
@@ -404,6 +414,16 @@
 			(type default)
 		)
 		(uuid "ad61a20e-c2f4-48d2-bcd7-3e1d170bdd2b")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 176.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae82c85f-e4e8-485c-b4c2-80595772e362")
 	)
 	(wire
 		(pts
@@ -514,6 +534,16 @@
 			(type default)
 		)
 		(uuid "e39c30e3-f292-4571-aea7-286edfa2800a")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 176.53 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e911aaa4-f763-49ff-bad6-115f9d9b8e69")
 	)
 	(wire
 		(pts
@@ -739,7 +769,7 @@
 	)
 	(sheet
 		(at 60.96 49.53)
-		(size 38.1 29.21)
+		(size 38.1 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -753,7 +783,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0bf83fdb-d352-4f3a-bc3d-4e93b1872637")
-		(property "Sheetname" "SPI"
+		(property "Sheetname" "Serial"
 			(at 60.96 48.8184 0)
 			(effects
 				(font
@@ -763,7 +793,7 @@
 			)
 		)
 		(property "Sheetfile" "SPI.kicad_sch"
-			(at 60.96 79.3246 0)
+			(at 60.96 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -844,6 +874,26 @@
 		(pin "SPI5.MISO" output
 			(at 99.06 66.04 0)
 			(uuid "e21f2abf-a2ba-48cd-89d4-8156a0b1cca2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1.SCL" input
+			(at 99.06 78.74 0)
+			(uuid "0e7e3df0-31cb-4a27-b155-e206ef19dd87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1.SDA" bidirectional
+			(at 99.06 81.28 0)
+			(uuid "d3a6e8a6-a173-47e8-be8f-f3db9b1bc704")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,6 +2136,36 @@
 		(pin "SPI4.CS" output
 			(at 176.53 60.96 180)
 			(uuid "7cdd3282-f920-48ac-91c4-16d029435d12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Buzz" output
+			(at 252.73 109.22 0)
+			(uuid "0401e983-46f4-4b66-b2f8-dba75e9c97c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1.SDA" bidirectional
+			(at 176.53 81.28 180)
+			(uuid "cf19245e-9604-426e-a103-a49594733f34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1.SCL" output
+			(at 176.53 78.74 180)
+			(uuid "3e600d6e-c419-4202-9de7-d16fae0cb63b")
 			(effects
 				(font
 					(size 1.27 1.27)
